@@ -1,3 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
 tasks:
-  - command: brew install ollama && ollama serve
+  - command: ollama serve
   - command: ollama pull codegemma:2b

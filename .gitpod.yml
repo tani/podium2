@@ -1,0 +1,3 @@
+tasks:
+  - command: ollama serve
+  - command: ollama pull codegemma:2b

@@ -1,3 +1,5 @@
 tasks:
-  - command: ollama serve
-  - command: ollama pull codegemma:2b
+  - command: |
+      brew install ollama
+      ollama serve &
+      ollama pull codegemma:2b

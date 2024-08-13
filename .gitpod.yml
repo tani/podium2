@@ -3,4 +3,5 @@ image:
 
 tasks:
   - command: ollama serve
-  - command: ollama pull codegemma:2b
+  - command: ollama pull codellama:7b-code
+  - command: ollama pull codellama:7b-instruct

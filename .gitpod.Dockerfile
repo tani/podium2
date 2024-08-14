@@ -1,2 +1,2 @@
 FROM gitpod/workspace-full
-RUN brew install ollama
+RUN brew install deno lua

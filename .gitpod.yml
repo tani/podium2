@@ -1,7 +1,2 @@
 image:
   file: .gitpod.Dockerfile
-
-tasks:
-  - command: ollama serve
-  - command: ollama pull codellama:7b-code
-  - command: ollama pull codellama:7b-instruct
